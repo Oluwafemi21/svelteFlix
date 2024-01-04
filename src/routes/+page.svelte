@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import Hero from '$lib/components/Hero.svelte'
+	export let data;
+    console.log(data.featured)
+</script>
+
+<Hero movie={data.featured}/>
+<section>
+    <div>
+        <h3 class="text-white text-2xl">Trending</h3> <span class="text-netflix underline">see all</span>
+    </div>
+    <div>
+        
+    </div>
+
+</section>
