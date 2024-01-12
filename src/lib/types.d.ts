@@ -23,7 +23,7 @@ export interface MovieDetails {
 	images: {
 		backdrops: Image[];
 		logos: Image[];
-		poster: Image[];
+		posters: Image[];
 	};
 	imdb_id: string | null;
 	original_language: string;

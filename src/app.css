@@ -10,5 +10,9 @@ html {
 }
 
 body {
-	@apply px-4 md:px-8 flex flex-col min-h-screen;
+	@apply flex flex-col h-screen selection:bg-netflix selection:text-black;
+}
+
+.col {
+	@apply container mx-auto px-4 md:px-8;
 }

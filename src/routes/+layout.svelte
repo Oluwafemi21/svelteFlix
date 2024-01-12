@@ -2,7 +2,7 @@
     import "../app.css";
   </script>
 
- <nav>
+ <nav class="col">
     <a class="font-bold text-2xl" href="/">SVELTEFLIX</a>
 
     <div>
@@ -16,7 +16,7 @@
     <slot />
 </main>
 
-<footer class="text-center">
+<footer class="text-center col">
     <p>Data provided by <a href="https://www.themoviedb.org/
         " class="text-cyan-400/90">TMDB</a>. Built with <span class="text-netflix">SvelteKit</span> by <span class="text-netflix underline">Fex</span> </p>
 </footer>
